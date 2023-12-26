@@ -1,0 +1,62 @@
+# set recolor true
+# set recolor_darkcolor #BDE090
+# set recolor_lightcolor #000000
+
+# gruvbox
+
+set font                        "Roboto Mono 10"
+set default-bg                  "#404040"
+set default-fg                  "#cccccc"
+
+set statusbar-bg                "#404040"
+set statusbar-fg                "#a0a0a0"
+
+set inputbar-bg                 "#404040"
+set inputbar-fg                 "#cccccc"
+
+set notification-error-bg       "#fb4934"
+set notification-error-fg       "#404040"
+
+set notification-warning-bg     "#9fff96"
+set notification-warning-fg     "#404040"
+
+set highlight-color             "#9fff96"
+set highlight-active-color      "#318214"
+
+set completion-highlight-bg     "#3c3836"
+set completion-highlight-fg     "#fb4934"
+
+set completion-bg               "#404040"
+set completion-fg               "#a0a0a0"
+
+set notification-bg             "#404040"
+set notification-fg             "#a0a0a0"
+
+set recolor-lightcolor          "#404040"
+set recolor-darkcolor           "#cccccc"
+
+# Setting recolor-keephue true will keep any color your pdf has.
+# If it is false, it'll just be black and white.
+set recolor-keephue             "true"
+set recolor "true"
+
+# Rest of your configs go here:
+
+set adjust-open width
+set pages-per-row 1
+set selection-clipboard clipboard
+set incremental-search true
+set guioptions ""
+
+set window-title-home-tilde true
+set window-title-basename true
+set statusbar-home-tilde true
+set show-hidden true
+
+map d scroll half-down
+map u scroll half-up
+map x toggle_page_mode
+map <C-r> rotate
+map r recolor
+map <Left> navigate previous
+map <Right> navigate next
