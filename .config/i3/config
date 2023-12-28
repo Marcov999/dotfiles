@@ -42,8 +42,9 @@ exec --no-startup-id nm-applet
 # Blue light filter at night
 exec --no-startup-id gammastep-indicator
 
-# Disable middle click of tauchpad (warning: an external mouse would still paste using middle click)
+# Disable middle click (warning: disable also middle click of an external mouse)
 exec_always "xinput set-button-map 12 1 0 3"
+exec_always "xinput set-button-map 13 1 0 3"
 
 # Tearing
 exec_always ~/.scripts/compt.sh
